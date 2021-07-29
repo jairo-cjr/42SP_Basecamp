@@ -77,7 +77,8 @@ void matriz_de_ponteiros()
 	free(matriz);
 }
 
-void calculaPi(float **pi) {
+void calculaPi(float **pi)
+{
 		printf("pi: %p\n", pi);
 		printf("*pi: %p\n", *pi);
 		*pi = (float *) malloc(sizeof(float));
@@ -87,7 +88,7 @@ void calculaPi(float **pi) {
 		printf("*pi: %p\n", *pi);
 		printf("**pi: %.4f\n", **pi);
 		printf("-----------\n");
-	}
+}
 
 void referencia_por_ponteiro()
 {
